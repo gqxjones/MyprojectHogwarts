@@ -18,13 +18,14 @@ class TestCalc:
     @pytest.mark.parametrize('result, a, b', [
         [2, 0, 2],
         [3, 1, 2],
-        [0, 2, 2],
-        [-2, -3, -5],
-        [1, 3, 4]
+        [2, 2, 0],
+        [-5, -3, -2],
+        [7, 3, 4]
     ])
+
     #加法
     # @pytest.mark.run(order=-1)
-    def test_zaddOne(self, result, a, b):
+    def test_addOne(self, result, a, b):
         # assert self.Calc.add(0, 2) == 2
         assert self.Calc.add(a, b) == result
 
