@@ -15,4 +15,4 @@ class AddMember(BasePage):
 
     def get_first(self):
         # title = self.find(By.CSS_SELECTOR, '#member_list tr:nth-child(2) td:nth-child(2)').get_attribute('title')
-        return self.find(By.CSS_SELECTOR, '#member_list tr:nth-child(1) td:nth-child(2)').get_attribute('title')
+        return self.find(By.CSS_SELECTOR, '#member_list tr:nth-child(2) td:nth-child(2)').get_attribute('title')
