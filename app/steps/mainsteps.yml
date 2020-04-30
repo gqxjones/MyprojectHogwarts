@@ -1,0 +1,12 @@
+- by: xpath
+  locator: "//*[@text='通讯录']"
+  action: click
+
+- by: id
+  locator: "com.xueqiu.android:id/tv_search"
+  action: click
+
+- by: id
+  locator: "com.xueqiu.android:id/tv_search"
+  action: send
+  value: "{value}"

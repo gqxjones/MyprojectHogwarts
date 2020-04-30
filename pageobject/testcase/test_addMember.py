@@ -12,4 +12,4 @@ class TestRegister:
         add_member = self.main.goto_add_member()
         add_member.add_member()
         add_member.get_first()
-        assert add_member.get_first() == 'ricebug'
+        assert 'ricebug' in add_member.get_first()
